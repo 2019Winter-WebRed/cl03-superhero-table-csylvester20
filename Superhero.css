@@ -1,0 +1,23 @@
+/*
+* Chloe Sylvester
+* 11 March, 2019
+* HTML Superhero Table
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    background-color: azure; /* this gives the website a nice light blue background */
+}
+table, td, th { border: 1px solid blue; } /* for this attribute it allows the border size to be a blue, thin solid line */
+
+table { border-collapse: collapse; } /* this attribute removes the space between the cells on the table*/
+
+thead { background-color: aquamarine; } /* this attribute allows the first two rows to be a different color than the other sections*/
+tfoot { background-color: deepskyblue; } /* this allows the final row to be a different color than everything else on the website */
